@@ -11,7 +11,7 @@
 ## Screenshots
 
 <p align="center">
-<img src="screenshorts/screen1.jpeg" alt="Screenshot 1" width="216">
+<img src="screen1.jpeg" alt="Screenshot 1" width="216">
 <img src="screenshorts/screen2.jpeg" alt="Screenshot 1" width="216">
 <img src="screenshorts/screen3.jpeg" alt="Screenshot 1" width="216">
 <img src="screenshorts/screen4.jpeg" alt="Screenshot 1" width="216">
