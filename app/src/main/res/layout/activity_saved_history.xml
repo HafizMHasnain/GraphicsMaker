@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimary">
+
+
+
+    <RelativeLayout
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        tools:visibility="visible"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/adView"
+        android:layout_alignParentTop="true">
+
+        <RelativeLayout
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="50.0dip"
+            android:layout_alignParentTop="true"
+            android:background="@color/colorSecondary">
+
+            <ImageButton
+                android:id="@+id/btn_back"
+                android:layout_width="25.0dip"
+                android:layout_height="25.0dip"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10.0dip"
+                android:backgroundTint="@color/white"
+                android:background="@drawable/ic_arrow_back" />
+
+            <TextView
+                android:id="@+id/SavedPictures"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/SavedPictures"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="20.0sp" />
+
+            <ImageButton
+                android:id="@+id/btn_home"
+                android:layout_width="30.0dip"
+                android:layout_height="30.0dip"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                tools:visibility="visible"
+                android:layout_marginEnd="10.0dip"
+                android:background="@drawable/business_icons8_home"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel_text"
+            android:layout_width="match_parent"
+            android:layout_height="50.0dip"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="5.0dip"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/no_image"
+                android:layout_width="match_parent"
+                android:layout_height="50.0dip"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="@string/no_saved_pics"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="25.0sp" />
+        </RelativeLayout>
+
+        <GridView
+            android:id="@+id/gridView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:horizontalSpacing="5.0dip"
+            android:numColumns="2"
+            android:padding="5.0dip"
+            android:verticalSpacing="5.0dip" />
+    </RelativeLayout>
+
+</RelativeLayout>

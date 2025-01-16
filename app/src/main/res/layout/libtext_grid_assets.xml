@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/lay_text"
+        android:layout_width="match_parent"
+        android:layout_height="70.0dip"
+        android:background="@color/white"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/grid_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="text"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20.0sp" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:drawSelectorOnTop="true"
+        android:horizontalSpacing="5.0dip"
+        android:listSelector="?android:selectableItemBackground"
+        android:numColumns="3"
+        android:padding="5.0dip"
+        android:scrollbars="none"
+        android:verticalSpacing="5.0dip"
+        android:background="@color/white1"
+        />
+</RelativeLayout>

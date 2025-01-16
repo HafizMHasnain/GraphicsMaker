@@ -1,0 +1,308 @@
+<resources>
+    <string name="app_name" translatable="false">Business Logo and Card\nMaker</string>
+    <string name="app_version" translatable="false">1.0</string>
+    <string name="app_version_name" translatable="false">1.0</string>
+
+    <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="bnr_admob" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="native_admob" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="int_admob" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="app_open_admob" translatable="false">ca-app-pub-3940256099942544/3419835294</string>
+    <string name="video_admob" translatable="false">ca-app-pub-3940256099942544/5224354917</string>
+
+    <string name="privacyPolicy" translatable="false">https://www.termsfeed.com/live/7e42c920-4f36-425e-a80a-c616a5a77156</string>
+    <string name="dev_name" translatable="false">Account+Name</string>
+
+    <string name="home" translatable="false">Home</string>
+    <string name="create" translatable="false">Create</string>
+    <string name="logo" translatable="false">Art</string>
+    <string name="more1" translatable="false">More</string>
+    <string name="remove_ads" translatable="false">Remove Ads</string>
+    <string name="rate_us_on_google" translatable="false">Rate us on Google</string>
+    <string name="about_us" translatable="false">About us</string>
+    <string name="exit_text" translatable="false">Exit</string>
+    <string name="label_ok" translatable="false">OK</string>
+    <string name="by_kliiv_labs" translatable="false">by hasaniasoft</string>
+    <string name="easy" translatable="false">Easy</string>
+    <string name="card_maker" translatable="false">Tool Kit</string>
+    <string name="image" translatable="false">Image</string>
+    <string name="select_design" translatable="false">SELECT DESIGN</string>
+    <string name="logo_design" translatable="false">Logo Design</string>
+    <string name="poster_design" translatable="false">Poster Design</string>
+    <string name="card_design" translatable="false">Card Design</string>
+    <string name="request_for_design" translatable="false">Buy me a coffee</string>
+
+
+    <string name="open_drawer" translatable="false">Open Drawer</string>
+    <string name="close_drawer" translatable="false">Close Drawer</string>
+    <string name="typeFont" translatable="false">Type Font</string>
+    <string name="addText" translatable="false">Add Text</string>
+    <string name="poster" translatable="false">Poster</string>
+    <string name="card" translatable="false">Card</string>
+    <string name="bg_shape" translatable="false">BG Shape</string>
+    <string name="scale" translatable="false">Scale</string>
+
+
+    <string name="DesignOptionsInstruction" translatable="false">Long Press on your Design for Options.</string>
+    <string name="NoDesigns" translatable="false">"No Design's saved. Check out Create Logo (From Scratch or With Designer) and save as Design."</string>
+    <string name="SavedAs" translatable="false">Save As</string>
+    <string name="SavedPictures" translatable="false">Saved Pictures</string>
+    <string name="add_sticker" translatable="false">Art</string>
+    <string name="add_text" translatable="false">Text</string>
+    <string name="alert" translatable="false">Unsaved work</string>
+    <string name="app_not_found" translatable="false">Application not found!!!</string>
+    <string name="bestSize" translatable="false">Find best size phone can handle</string>
+    <string name="cancel" translatable="false">Cancel</string>
+
+    <!-- sticker catagories -->
+    <string name="badge" translatable="false">Badge</string>
+    <string name="bakery" translatable="false">Bakery</string>
+    <string name="ribbon" translatable="false">Ribbon</string>
+    <string name="icon" translatable="false">Icon</string>
+    <string name="payment" translatable="false">Payment</string>
+    <string name="beautyy" translatable="false">Beauty</string>
+    <string name="bistroo" translatable="false">Bistro</string>
+    <string name="profession" translatable="false">Profession</string>
+    <string name="peopl" translatable="false">People</string>
+    <string name="christianity" translatable="false">Christianity</string>
+    <string name="pets" translatable="false">Pets</string>
+    <string name="letters" translatable="false">Letters</string>
+    <string name="babymom" translatable="false">BabyMom</string>
+    <string name="fashion" translatable="false">Fashion</string>
+    <string name="business" translatable="false">Business</string>
+    <string name="threeD" translatable="false">ThreeD</string>
+    <string name="camera" translatable="false">Camera</string>
+    <string name="square" translatable="false">Square</string>
+    <string name="butterfly" translatable="false">Butterfly</string>
+    <string name="cars" translatable="false">Cars</string>
+    <string name="music" translatable="false">Music</string>
+    <string name="party" translatable="false">Party</string>
+    <string name="ngo" translatable="false">NGO</string>
+    <string name="festival" translatable="false">Festival</string>
+    <string name="tattoo" translatable="false">Tattoo Studio</string>
+    <string name="flower" translatable="false">Flower</string>
+    <string name="star" translatable="false">Star</string>
+    <string name="video" translatable="false">Video</string>
+    <string name="heart" translatable="false">Heart</string>
+    <string name="halloween" translatable="false">Halloween</string>
+    <string name="holiday" translatable="false">Holiday</string>
+    <string name="toys" translatable="false">Toys</string>
+    <string name="animals_birds" translatable="false">Animals &amp; Birds</string>
+    <string name="text" translatable="false">Text</string>
+    <string name="shapes" translatable="false">Shapes</string>
+    <string name="social" translatable="false">Social</string>
+    <string name="leaf" translatable="false">Leaf</string>
+    <string name="corporate" translatable="false">Corporate</string>
+    <string name="property" translatable="false">Property</string>
+    <string name="sports" translatable="false">Sports</string>
+    <string name="restaurant_cafe" translatable="false">Restaurant &amp; cafe</string>
+    <string name="circle" translatable="false">Circle</string>
+
+    <string name="check_internet" translatable="false">Oops! something went wrong. Please check your internet connection and try again.</string>
+    <string name="check_memory" translatable="false">Oops! Please check your device storage and clear some data and try again.</string>
+    <string name="choose_font" translatable="false">Choose Font Category</string>
+    <string name="choose_stickr" translatable="false">Choose Sticker</string>
+    <string name="colorPicker" translatable="false">Color Picker</string>
+    <string name="colorcc" translatable="false">Selected Color</string>
+    <string name="create1" translatable="false">Create Logo</string>
+    <string name="create2" translatable="false">Create Logo With DESIGNER</string>
+    <string name="create_dir_err" translatable="false">"Can't create directory to save image."</string>
+    <string name="crop" translatable="false">Crop</string>
+    <string name="custom" translatable="false">Custom</string>
+    <string name="del_error_toast" translatable="false">Error occurred during deletion.</string>
+    <string name="delete" translatable="false">Delete</string>
+    <string name="deleted" translatable="false">Deleted</string>
+    <string name="des_save_image" translatable="false">Oops! Seems like your device is unable to handle the size. Try smaller Sizes.</string>
+    <string name="designer_msg" translatable="false">Error while getting Designer Logos.</string>
+    <string name="designer_title" translatable="false">Incomplete Info</string>
+    <string name="dont_show" translatable="false">"Don't show again"</string>
+    <string name="downloadin_file" translatable="false">Downloading file...</string>
+    <string name="email_error" translatable="false">No email client installed.</string>
+    <string name="email_msg" translatable="false">Write your problems or suggestions here..</string>
+    <string name="error" translatable="false">Error while retrieving the picture. Please try again.</string>
+    <string name="error1" translatable="false">Error</string>
+    <string name="exit_title" translatable="false">Exit Alert!</string>
+    <string name="exit_warning" translatable="false">Are you sure you want to exit?</string>
+    <string name="file_not_downloaded" translatable="false">Unable to download file. Please check your internet connection and try again.</string>
+    <string name="fontCata1" translatable="false">Calligraphy</string>
+    <string name="fontCata2" translatable="false">Contemporary</string>
+    <string name="fontCata3" translatable="false">Funky</string>
+    <string name="fontCata4" translatable="false">Modern</string>
+    <string name="gallery" translatable="false">Gallery</string>
+    <string name="go_premium" translatable="false">Purchase</string>
+    <string name="helpTag" translatable="false">"Don't worry, we are here to help you."</string>
+    <string name="helpTag1" translatable="false">Or maybe, ask for a new feature.</string>
+    <string name="helpTag2" translatable="false">Please give 5 stars in Play Store.</string>
+    <string name="helpTitle" translatable="false">Need Further Help?</string>
+    <string name="helpTitle1" translatable="false">Give Suggestion</string>
+    <string name="helpTitle2" translatable="false">Thank you!</string>
+    <string name="helpTitleC" translatable="false">Need Help?</string>
+    <string name="inappHeader" translatable="false">App Rater</string>
+    <string name="inapp_btn1" translatable="false">Rate us Now !!!!</string>
+    <string name="inapp_btn2" translatable="false">Buy all</string>
+    <string name="inapp_designer_text" translatable="false">"Designer Logo's"</string>
+    <string name="inapp_msg" translatable="false">"More than 3.5 Million Logo's created with Logo Maker"</string>
+    <string name="inapp_rs1" translatable="false">Click here to rate US</string>
+
+
+    <string name="inapp_tittle" translatable="false">Go Premium</string>
+    <string name="later" translatable="false">Later</string>
+    <string name="leavepage_alert" translatable="false">Are you sure you want to leave this page?</string>
+    <string name="more" translatable="false">More(Ad)</string>
+    <string name="msg_rating" translatable="false">Dear User, Your 5 stars rating and review will encourage us to better improve the product.</string>
+    <string name="my_design" translatable="false">My Designs</string>
+    <string name="no" translatable="false">No</string>
+    <string name="no1" translatable="false">No thanks!</string>
+    <string name="no_internet" translatable="false">No Internet</string>
+    <string name="no_layers" translatable="false">No Layers !!</string>
+    <string name="no_more_data" translatable="false">No more data on Server!</string>
+    <string name="no_saved_pics" translatable="false">No saved pictures</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="open" translatable="false">Open</string>
+    <string name="or" translatable="false">or</string>
+    <string name="permission" translatable="false">Permission!</string>
+    <string name="permission_des" translatable="false">Grant these permissions to use Logo Maker</string>
+    <string name="permission_des1" translatable="false">Note: You can also give permissions in Settings --> apps --> Logo Maker -->Permissions</string>
+    <string name="picUpImg" translatable="false">Oops! Something went wrong Please try again with different Image.</string>
+    <string name="please_wait" translatable="false">Please wait</string>
+    <string name="plzwait" translatable="false">Please wait..</string>
+    <string name="pull_to_refresh_pull_label" translatable="false">Pull to refresh…</string>
+    <string name="pull_to_refresh_refreshing_label" translatable="false">Loading…</string>
+    <string name="pull_to_refresh_release_label" translatable="false">Release to refresh…</string>
+    <string name="radio_linear" translatable="false">Linear Gradient</string>
+    <string name="radio_radial" translatable="false">Radial Gradient</string>
+    <string name="rate_msg" translatable="false">Liked this app? Please give us 5 star!</string>
+    <string name="rate_us" translatable="false">Rate us</string>
+    <string name="remove_watermark" translatable="false">Remove Watermark</string>
+    <string name="remove_watermark_vid_msg" translatable="false">Remove Watermark(One Time) by watching Ad.</string>
+    <string name="save_Error_title1" translatable="false">Logo Size</string>
+    <string name="save_Error_title2" translatable="false">Error while Saving</string>
+    <string name="save_Imgmsg" translatable="false">Your %s successfully saved as Image in-</string>
+    <string name="save_err" translatable="false">Error while saving</string>
+    <string name="save_error" translatable="false">Error saving image. Please try again.</string>
+    <string name="save_image" translatable="false">Logo saved</string>
+    <string name="save_msg" translatable="false">Your Design successfully saved in My Designs.</string>
+    <string name="save_optionT" translatable="false">Save Logo With</string>
+    <string name="save_title" translatable="false">Design saved</string>
+    <string name="save_trans" translatable="false">Transparent Background</string>
+    <string name="save_withouttrans" translatable="false">White Background</string>
+    <string name="saved" translatable="false">Image saved to:</string>
+    <string name="select_color" translatable="false">Select color</string>
+    <string name="select_picture" translatable="false">Choose picture</string>
+    <string name="settings" translatable="false">Settings</string>
+    <string name="share" translatable="false">Share</string>
+    <string name="share_image" translatable="false">Share Image</string>
+    <string name="share_via" translatable="false">Share Via</string>
+    <string name="sharetext" translatable="false">This amazing picture was created using</string>
+    <string name="sharetext1" translatable="false">"Make your own .."</string>
+    <string name="size1" translatable="false">HD+ (2048*2048)</string>
+    <string name="size15" translatable="false">Custom</string>
+    <string name="size2" translatable="false">HD (1024*1024)</string>
+    <string name="size3" translatable="false">Standard (512*512)</string>
+    <string name="sizeCutom" translatable="false">Enter Size</string>
+    <string name="sizeIcon" translatable="false">Icon (128*128)</string>
+    <string name="sizeThumb" translatable="false">Thumbnail (256*256)</string>
+    <string name="sizeCard" translatable="false">Card (16::9 ratio)</string>
+    <string name="sizePoster" translatable="false">Poster (3:4 or 4:5 ratio)</string>
+    <string name="something_wrong" translatable="false">Something went wrong. Please check your internet connection and try again.</string>
+    <string name="storage" translatable="false">Storage</string>
+    <string name="sugg_msg" translatable="false">Your suggestions are valuable to us, please email feedback..</string>
+    <string name="temp_Designer" translatable="false">Designer</string>
+    <string name="template_error" translatable="false">Some images are missing for this designs. Do you want to continue?</string>
+    <string name="textlib_header_text" translatable="false">Add Text</string>
+    <string name="textlib_warn_text" translatable="false">Please enter some text...</string>
+    <string name="textlib_your_text" translatable="false">Your Text Here...</string>
+    <string name="thank_toast" translatable="false">Thank for your rating and comment.</string>
+    <string name="title_rating" translatable="false">Rating</string>
+    <string name="txt2" translatable="false">Please Rate us 5 star</string>
+    <string name="txt3" translatable="false">&amp; unlock Art.</string>
+    <string name="txtAskhelp" translatable="false">Ask for Help</string>
+    <string name="txtAskhelp1" translatable="false">send</string>
+    <string name="txtAskhelp2" translatable="false">Give 5 stars</string>
+    <string name="txtDesigner" translatable="false">I am your Designer: I will create Designs for you. Fill in above info.</string>
+    <string name="txtHi" translatable="false">Hi!</string>
+    <string name="txtMonthly" translatable="false">Monthly</string>
+    <string name="txtNotilte1" translatable="false">We tried to make this app helpful and easy to use. Please select how you feel.</string>
+    <string name="txtOption1" translatable="false">With Designer</string>
+    <string name="txtOption2" translatable="false">From Scratch</string>
+    <string name="txtPrimimum" translatable="false">Hey</string>
+    <string name="txtReport" translatable="false">Report</string>
+    <string name="txtUnvalit" translatable="false">Custom Size cannot be greater than HD+</string>
+    <string name="txtUnvalit1" translatable="false">Custom Size cannot be less than 10 pixels</string>
+    <string name="txtYearly" translatable="false">Yearly</string>
+    <string name="txt_All" translatable="false">Lock All</string>
+    <string name="txt_Frag1" translatable="false">Over 3.5 million Logos has been created Using Logo Maker.</string>
+    <string name="txt_Frag2" translatable="false">Create a logo design in less than a minute.</string>
+    <string name="txt_Frag3" translatable="false">This app made me an instant graphic designer and saved me a ton of money!</string>
+    <string name="txt_Frag31" translatable="false">- Jared Rhue</string>
+    <string name="txt_Frag4" translatable="false">I LOVE IT!!! I am not the most art savy but this app made it easy for me to make my logo.</string>
+    <string name="txt_Frag41" translatable="false">- Briana Dugger</string>
+    <string name="txt_Frag5" translatable="false">Get an amazing logo design you’ll love.</string>
+    <string name="txt_Gradient" translatable="false">Gradient</string>
+    <string name="txt_More" translatable="false">More Apps(Ad)</string>
+    <string name="txt_Next" translatable="false">Next</string>
+    <string name="txt_backgnd" translatable="false">Bg</string>
+    <string name="txt_backgrounds" translatable="false">Background</string>
+    <string name="txt_center" translatable="false">Center</string>
+    <string name="txt_color" translatable="false">Color</string>
+    <string name="txt_colorOpacty" translatable="false">Opacity</string>
+    <string name="txt_colors" translatable="false">Colors</string>
+    <string name="txt_companyName" translatable="false">Company Name</string>
+    <string name="txt_companyNametoast" translatable="false">Enter Company Name</string>
+    <string name="txt_conti" translatable="false">Continue</string>
+    <string name="txt_controls" translatable="false">Controls</string>
+    <string name="txt_design" translatable="false">Design</string>
+    <string name="txt_dublicate" translatable="false">Duplicate</string>
+    <string name="txt_eColor" translatable="false">End Color</string>
+    <string name="txt_edit" translatable="false">Edit Text</string>
+    <string name="txt_effect" translatable="false">Effects</string>
+    <string name="txt_fonts" translatable="false">Fonts</string>
+    <string name="txt_gdcolor" translatable="false">Gradient</string>
+    <string name="txt_go" translatable="false">GO</string>
+    <string name="txt_help" translatable="false">Help &amp; FAQ</string>
+    <string name="txt_helpFeed" translatable="false">Did you liked your LOGO?</string>
+    <string name="txt_image" translatable="false">Image</string>
+    <string name="txt_indestry" translatable="false">Choose Industry</string>
+    <string name="txt_left" translatable="false">Left</string>
+    <string name="txt_preview" translatable="false">Preview</string>
+    <string name="txt_privacy" translatable="false"><u>Privacy</u> <u>Policy</u></string>
+    <string name="txt_radious" translatable="false">Adjust Radius</string>
+    <string name="txt_right" translatable="false">Right</string>
+    <string name="txt_sColor" translatable="false">Start Color</string>
+    <string name="txt_saveMsg" translatable="false"><b>Design</b>" - Lets you rework "</string>
+    <string name="txt_saveMsg1" translatable="false"><b>Image</b> - Is final Picture for sharing and posting.</string>
+    <string name="txt_shadow" translatable="false">Shadow</string>
+    <string name="txt_tagLine" translatable="false">Tag Line</string>
+    <string name="txt_tagtoast" translatable="false">Enter Tag Line (Optional)</string>
+    <string name="txt_texture" translatable="false">Texture</string>
+    <string name="txtbad" translatable="false">Bad</string>
+    <string name="txteditsave" translatable="false">Edit and Save</string>
+    <string name="txtexcellent" translatable="false">Excellent</string>
+    <string name="txtform1" translatable="false">Please Enter Company Name to proceed.</string>
+    <string name="txtform2" translatable="false">Please Choose Font Category to proceed.</string>
+    <string name="txtgood" translatable="false">Good</string>
+    <string name="unlock" translatable="false">Unlock</string>
+    <string name="use_background" translatable="false">** Use your selected Premium Background(One Time) by watching Ad **</string>
+    <string name="use_texture" translatable="false">** Use your selected Premium Texture(One Time) by watching Ad **</string>
+    <string name="useart" translatable="false">Use Art (One Time)</string>
+    <string name="useart_msg" translatable="false">** Use your selected Premium Art(Sticker) by watching Ad **</string>
+    <string name="usenow" translatable="false">Use Now</string>
+    <string name="watch_ad" translatable="false">Remove</string>
+    <string name="watchnow" translatable="false">Watch Now</string>
+    <string name="yes" translatable="false">Yes</string>
+    <string name="yes1" translatable="false">Yes</string>
+    <string name="yourPhoto1" translatable="false">My Logos</string>
+    <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
+    <string name="txt_tD" translatable="false">3D</string>
+    <string name="title_activity_poster" translatable="false">Poster</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="save_design" translatable="false">Save Image</string>
+    <string name="my_projects" translatable="false">Projects</string>
+    <string name="title_activity_subscribe_premium" translatable="false">SubscribePremium</string>
+
+</resources>

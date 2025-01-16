@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10.0">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="5.0">
+
+            <ImageView
+                android:id="@+id/img_result"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/txt_Preview"
+                android:layout_centerInParent="true"
+                android:layout_margin="5.0dip" />
+
+            <TextView
+                android:id="@+id/txt_Preview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/txt_preview"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18.0sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="2.3">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal"
+                android:weightSum="1.0">
+
+                <RelativeLayout
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="5.0dip"
+                    android:layout_weight="0.4"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/img_start"
+                        android:layout_width="60.0dip"
+                        android:layout_height="35.0dip"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginRight="10.0dip"
+                        android:background="@color/colorPrimary" />
+
+                    <TextView
+                        android:id="@+id/txt_StartColor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/img_start"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5.0dip"
+                        android:text="@string/txt_sColor"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="13.0sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5.0dip"
+                    android:layout_weight="0.2"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/img_flip"
+                        android:layout_width="35.0dip"
+                        android:layout_height="35.0dip"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginRight="10.0dip"
+                        android:background="@drawable/exchange"
+                        app:tint="@color/colorPrimary" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="5.0dip"
+                    android:layout_weight="0.4"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/img_end"
+                        android:layout_width="60.0dip"
+                        android:layout_height="35.0dip"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginRight="10.0dip"
+                        android:background="@color/colorPrimary" />
+
+                    <TextView
+                        android:id="@+id/txt_EndColor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/img_end"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5.0dip"
+                        android:text="@string/txt_eColor"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="13.0sp" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="0.7"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:id="@+id/radioSex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radio_linear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:drawableTint="@color/colorPrimary"
+                    android:text="@string/radio_linear"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorPrimary" />
+
+                <RadioButton
+                    android:id="@+id/radio_radial"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.0dip"
+                    android:checked="false"
+                    android:drawableTint="@color/colorPrimary"
+                    android:text="@string/radio_radial"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorPrimary" />
+            </RadioGroup>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="2.0"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/done_Go">
+
+                <LinearLayout
+                    android:id="@+id/lay_orintation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:visibility="visible"
+                    android:weightSum="4.0">
+
+                    <RelativeLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0">
+
+                        <ImageButton
+                            android:id="@+id/img_1"
+                            android:layout_width="35.0dip"
+                            android:layout_height="35.0dip"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/ic_orientation_selected" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0">
+
+                        <ImageButton
+                            android:id="@+id/img_3"
+                            android:layout_width="35.0dip"
+                            android:layout_height="35.0dip"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/ic_orientation"
+                            android:rotation="-90.0" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0">
+
+                        <ImageButton
+                            android:id="@+id/img_5"
+                            android:layout_width="35.0dip"
+                            android:layout_height="35.0dip"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/ic_orientation"
+                            android:rotation="-45.0" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0">
+
+                        <ImageButton
+                            android:id="@+id/img_6"
+                            android:layout_width="35.0dip"
+                            android:layout_height="35.0dip"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/ic_orientation"
+                            android:rotation="45.0" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lay_radius"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/txt_Radius"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/txt_radious"
+                        android:textAllCaps="true"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="17.0sp"
+                        android:visibility="gone" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="35.0dip"
+                        android:layout_marginLeft="5.0dip"
+                        android:layout_marginTop="5.0dip">
+
+                        <ImageView
+                            android:id="@+id/rdl"
+                            android:layout_width="30.0dip"
+                            android:layout_height="30.0dip"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/radius" />
+
+                        <SeekBar
+                            android:id="@+id/seek_radial"
+                            style="@style/AppTheme.SeekBar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@+id/rdl"
+                            android:theme="@style/AppTheme.SeekBar" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/done_Go"
+                android:layout_width="100.0dip"
+                android:layout_height="35.0dip"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginRight="5.0dip"
+                android:background="@drawable/layout_btn">
+
+                <TextView
+                    android:id="@+id/txt_Done"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/txt_go"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16.0sp" />
+
+                <ImageView
+                    android:id="@+id/img_lock"
+                    android:layout_width="35.0dip"
+                    android:layout_height="35.0dip"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/lockimg"
+                    android:scaleType="centerCrop"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

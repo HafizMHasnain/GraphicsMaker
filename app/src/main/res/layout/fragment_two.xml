@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkg">
+
+    <LinearLayout
+        android:id="@+id/lb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/lay_font1"
+            android:layout_width="fill_parent"
+            android:layout_height="60.0dip"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip"
+            android:background="@drawable/border_btn">
+
+            <TextView
+                android:id="@+id/txt_font1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/fontCata1"
+                android:textColor="@color/black"
+                android:textSize="23.0sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lay_font2"
+            android:layout_width="fill_parent"
+            android:layout_height="60.0dip"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip"
+            android:layout_marginTop="15.0dip"
+            android:background="@drawable/border_btn">
+
+            <TextView
+                android:id="@+id/txt_font2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/fontCata2"
+                android:textColor="@color/black"
+                android:textSize="23.0sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lay_font4"
+            android:layout_width="fill_parent"
+            android:layout_height="60.0dip"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip"
+            android:layout_marginTop="15.0dip"
+            android:background="@drawable/border_btn">
+
+            <TextView
+                android:id="@+id/txt_font4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/fontCata4"
+                android:textColor="@color/black"
+                android:textSize="23.0sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lay_font3"
+            android:layout_width="fill_parent"
+            android:layout_height="60.0dip"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip"
+            android:layout_marginTop="15.0dip"
+            android:background="@drawable/border_btn">
+
+            <TextView
+                android:id="@+id/txt_font3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/fontCata3"
+                android:textColor="@color/black"
+                android:textSize="23.0sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/lb">
+
+        <TextView
+            android:id="@+id/txt_appname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/choose_font"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="23.0sp" />
+    </RelativeLayout>
+</RelativeLayout>

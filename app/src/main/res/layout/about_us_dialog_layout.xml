@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundDark"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Business ToolKit"
+        android:fontFamily="@font/robotoserif_bolditalic"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="by"
+        android:fontFamily="@font/robotoserif_bolditalic"
+        android:textColor="#9C9C9C"
+        android:textSize="10sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="HasaniaSoft Pvt Ltd"
+        android:fontFamily="@font/robotoserif_bolditalic"
+        android:textColor="#FFC700"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#FFC800" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/robotomono_regular"
+        android:text="We develop trendy and intuitive apps intended for graphic design, art graphics, sound process , video editing and ecommerce apps. This app is a graphic design toolkit that can be used to easily develop a variety of business assets like cards, logo, posters."
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/robotoserif_bolditalic"
+        android:text="Thanks for supporting our App!"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/closeDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/robotoserif_bolditalic"
+        android:layout_gravity="right"
+        android:text="@string/label_ok" />
+</LinearLayout>

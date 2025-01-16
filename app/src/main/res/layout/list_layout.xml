@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:id="@+id/swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50.0dip"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/lay_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/layLeft"
+                android:layout_width="160.0dip"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/lay_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="55.0dip">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:alpha="0.8"
+                        android:background="?attr/colorPrimaryVariant" />
+
+                    <TextView
+                        android:id="@+id/txt_Nolayers"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="@string/no_layers"
+                        android:textColor="@android:color/white"
+                        android:textSize="15.0sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/lay_selectAll"
+                    android:layout_width="match_parent"
+                    android:layout_height="50.0dip"
+                    android:visibility="invisible">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:alpha="0.8"
+                        android:background="?attr/colorPrimaryVariant" />
+
+                    <TextView
+                        android:id="@+id/txt_all"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="35.0dip"
+                        android:text="@string/txt_All"
+                        android:textColor="@android:color/white"
+                        android:textSize="15.0sp" />
+
+                    <ImageView
+                        android:id="@+id/img_selectAll"
+                        android:layout_width="30.0dip"
+                        android:layout_height="30.0dip"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="100.0dip"
+                        android:src="@drawable/ic_unlock" />
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_width="match_parent"
+                    android:layout_height="1.0dip"
+                    android:layout_below="@+id/lay_selectAll"
+                    android:background="@android:color/white" />
+
+                <com.woxthebox.draglistview.DragListView
+                    android:id="@+id/drag_list_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/view"
+                    android:scrollbarThumbVertical="@drawable/scrollbar"
+                    android:scrollbars="vertical" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btn_layControls"
+                android:layout_width="35.0dip"
+                android:layout_height="35.0dip"
+                android:layout_toEndOf="@+id/layLeft"
+                android:background="@drawable/ic_layers"
+                android:clickable="false"
+                android:backgroundTint="@color/color2"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

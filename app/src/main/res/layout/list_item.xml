@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.woxthebox.draglistview.swipe.ListSwipeItem xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/item_layout"
+        android:layout_width="match_parent"
+        android:layout_height="60.0dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/backimg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="0.8"
+                android:background="@color/color24" />
+
+            <RelativeLayout
+                android:id="@+id/touch_rel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/layeradjust"
+                    android:layout_width="30.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5.0dip"
+                    android:src="@drawable/layeradjust" />
+
+                <RelativeLayout
+                    android:id="@+id/img"
+                    android:layout_width="60.0dip"
+                    android:layout_height="60.0dip"
+                    android:layout_toRightOf="@+id/layeradjust">
+
+                    <ImageView
+                        android:id="@+id/image1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="5.0dip" />
+
+                    <ImageView
+                        android:id="@+id/auto_fit_edit_text"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="5.0dip" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/img_lock"
+                android:layout_width="30.0dip"
+                android:layout_height="30.0dip"
+                android:layout_centerVertical="true"
+                android:layout_margin="5.0dip"
+                android:layout_marginLeft="10.0dip"
+                android:layout_toRightOf="@+id/touch_rel" />
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:text=""
+                android:textColor="@color/white"
+                android:visibility="visible" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:layout_alignParentBottom="true"
+                android:background="@android:color/white" />
+        </RelativeLayout>
+    </LinearLayout>
+</com.woxthebox.draglistview.swipe.ListSwipeItem>

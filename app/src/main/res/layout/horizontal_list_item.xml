@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.graphicsmaker.msl.demo.view.SquareFrameLayoutList xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true">
+
+    <com.example.graphicsmaker.msl.demo.view.SquareImageViewList
+        android:id="@+id/thumbnail_image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout_margin="5.0dip" />
+</com.example.graphicsmaker.msl.demo.view.SquareFrameLayoutList>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="?attr/colorPrimaryVariant">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:id="@+id/header"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:background="?attr/colorPrimaryVariant">
+
+            <TextView
+                android:id="@+id/headertext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/crop"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="20.0sp" />
+
+            <ImageButton
+                android:id="@+id/btn_bck"
+                android:layout_width="30.0dip"
+                android:layout_height="30.0dip"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10.0dip"
+                android:background="@drawable/ic_back"
+                android:contentDescription="TODO" />
+
+            <Button
+                android:id="@+id/done"
+                android:layout_width="30.0dip"
+                android:layout_height="30.0dip"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10.0dip"
+                android:background="@drawable/ic_done" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/footer"
+            android:layout_below="@+id/header"
+            android:layout_margin="1.0dip">
+
+            <com.example.graphicsmaker.crop.CropImageView
+                android:id="@+id/cropimage"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/footer"
+            android:layout_width="fill_parent"
+            android:layout_height="60.0dip"
+            android:layout_alignParentBottom="true"
+            android:background="?attr/colorPrimaryVariant">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/cutom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30.0dip"
+                        android:layout_margin="5.0dip"
+                        android:background="@drawable/crop_buttons"
+                        android:paddingLeft="5.0dip"
+                        android:paddingRight="5.0dip"
+                        android:text="@string/custom"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="15.0sp" />
+
+                    <Button
+                        android:id="@+id/square"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30.0dip"
+                        android:layout_margin="5.0dip"
+                        android:background="@drawable/crop_buttons"
+                        android:paddingLeft="5.0dip"
+                        android:paddingRight="5.0dip"
+                        android:text="@string/square"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="15.0sp" />
+
+                    <Button
+                        android:id="@+id/ratio1"
+                        android:layout_width="50.0dip"
+                        android:layout_height="30.0dip"
+                        android:layout_margin="5.0dip"
+                        android:background="@drawable/crop_buttons"
+                        android:text="1:2"
+                        android:textColor="@color/black"
+                        android:textSize="15.0sp" />
+
+                    <Button
+                        android:id="@+id/ratio2"
+                        android:layout_width="50.0dip"
+                        android:layout_height="30.0dip"
+                        android:layout_margin="5.0dip"
+                        android:background="@drawable/crop_buttons"
+                        android:text="2:1"
+                        android:textColor="@color/black"
+                        android:textSize="15.0sp" />
+
+                    <Button
+                        android:id="@+id/ratio3"
+                        android:layout_width="50.0dip"
+                        android:layout_height="30.0dip"
+                        android:layout_margin="5.0dip"
+                        android:background="@drawable/crop_buttons"
+                        android:text="2:3"
+                        android:textColor="@color/black"
+                        android:textSize="15.0sp" />
+
+                    <Button
+                        android:id="@+id/ratio4"
+                        android:layout_width="50.0dip"
+                        android:layout_height="30.0dip"
+                        android:layout_margin="5.0dip"
+                        android:background="@drawable/crop_buttons"
+                        android:text="3:2"
+                        android:textColor="@color/black"
+                        android:textSize="15.0sp" />
+
+                    <Button
+                        android:id="@+id/ratio5"
+                        android:layout_width="50.0dip"
+                        android:layout_height="30.0dip"
+                        android:layout_margin="5.0dip"
+                        android:background="@drawable/crop_buttons"
+                        android:text="3:4"
+                        android:textColor="@color/black"
+                        android:textSize="15.0sp" />
+
+                    <Button
+                        android:id="@+id/ratio6"
+                        android:layout_width="50.0dip"
+                        android:layout_height="30.0dip"
+                        android:layout_margin="5.0dip"
+                        android:background="@drawable/crop_buttons"
+                        android:text="3:5"
+                        android:textColor="@color/black"
+                        android:textSize="15.0sp" />
+
+                    <Button
+                        android:id="@+id/ratio7"
+                        android:layout_width="50.0dip"
+                        android:layout_height="30.0dip"
+                        android:layout_margin="5.0dip"
+                        android:background="@drawable/crop_buttons"
+                        android:text="4:3"
+                        android:textColor="@color/black"
+                        android:textSize="15.0sp" />
+
+                    <Button
+                        android:id="@+id/ratio8"
+                        android:layout_width="50.0dip"
+                        android:layout_height="30.0dip"
+                        android:layout_margin="5.0dip"
+                        android:background="@drawable/crop_buttons"
+                        android:text="4:5"
+                        android:textColor="@color/black"
+                        android:textSize="15.0sp" />
+
+                    <Button
+                        android:id="@+id/ratio9"
+                        android:layout_width="50.0dip"
+                        android:layout_height="30.0dip"
+                        android:layout_margin="5.0dip"
+                        android:background="@drawable/crop_buttons"
+                        android:text="4:7"
+                        android:textColor="@color/black"
+                        android:textSize="15.0sp" />
+
+                    <Button
+                        android:id="@+id/ratio10"
+                        android:layout_width="50.0dip"
+                        android:layout_height="30.0dip"
+                        android:layout_margin="5.0dip"
+                        android:background="@drawable/crop_buttons"
+                        android:text="5:3"
+                        android:textColor="@color/black"
+                        android:textSize="15.0sp" />
+
+                    <Button
+                        android:id="@+id/ratio11"
+                        android:layout_width="50.0dip"
+                        android:layout_height="30.0dip"
+                        android:layout_margin="5.0dip"
+                        android:background="@drawable/crop_buttons"
+                        android:text="5:4"
+                        android:textColor="@color/black"
+                        android:textSize="15.0sp" />
+
+                    <Button
+                        android:id="@+id/ratio12"
+                        android:layout_width="50.0dip"
+                        android:layout_height="30.0dip"
+                        android:layout_margin="5.0dip"
+                        android:background="@drawable/crop_buttons"
+                        android:text="5:6"
+                        android:textColor="@color/black"
+                        android:textSize="15.0sp" />
+
+                    <Button
+                        android:id="@+id/ratio13"
+                        android:layout_width="50.0dip"
+                        android:layout_height="30.0dip"
+                        android:layout_margin="5.0dip"
+                        android:background="@drawable/crop_buttons"
+                        android:text="5:7"
+                        android:textColor="@color/black"
+                        android:textSize="15.0sp" />
+
+                    <Button
+                        android:id="@+id/ratio14"
+                        android:layout_width="50.0dip"
+                        android:layout_height="30.0dip"
+                        android:layout_margin="5.0dip"
+                        android:background="@drawable/crop_buttons"
+                        android:text="9:16"
+                        android:textColor="@color/black"
+                        android:textSize="15.0sp" />
+
+                    <Button
+                        android:id="@+id/ratio15"
+                        android:layout_width="50.0dip"
+                        android:layout_height="30.0dip"
+                        android:layout_margin="5.0dip"
+                        android:background="@drawable/crop_buttons"
+                        android:text="16:9"
+                        android:textColor="@color/black"
+                        android:textSize="15.0sp" />
+                </LinearLayout>
+            </HorizontalScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/lay_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/card_bg"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <RelativeLayout
+            android:layout_width="200.0dip"
+            android:layout_height="65.0dip"
+            android:layout_centerInParent="true"
+            android:layout_margin="5.0dip">
+
+            <RelativeLayout
+                android:id="@+id/btn_inapp"
+                android:layout_width="wrap_content"
+                android:layout_height="50.0dip"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/my_border">
+
+                <TextView
+                    android:id="@+id/txt_dialog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="15.0dip"
+                    android:layout_marginRight="15.0dip"
+                    android:text="@string/txteditsave"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="18.0sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="30.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_margin="3.0dip"
+            android:background="@drawable/my_border_cra">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="7.0dip"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img_"
+                    android:layout_width="15.0dip"
+                    android:layout_height="15.0dip"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/crown"
+                    android:gravity="center_vertical" />
+
+                <TextView
+                    android:id="@+id/txtPrimimum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5.0dip"
+                    android:layout_marginRight="5.0dip"
+                    android:gravity="center_vertical"
+                    android:text="@string/txtPrimimum"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="8.0sp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

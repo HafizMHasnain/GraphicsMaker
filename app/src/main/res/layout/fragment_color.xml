@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="15.0dip"
+        android:layout_marginRight="15.0dip"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="5.0dip"
+        app:cardElevation="5.0dip"
+        app:cardUseCompatPadding="false">
+
+        <RelativeLayout
+            android:id="@+id/dw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_bg">
+
+            <RelativeLayout
+                android:id="@+id/hh"
+                android:layout_width="match_parent"
+                android:layout_height="60.0dip">
+
+                <TextView
+                    android:id="@+id/textH"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/select_color"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20.0sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/kk"
+                android:layout_width="match_parent"
+                android:layout_height="150.0dip"
+                android:layout_below="@+id/hh"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginRight="5.0dip"
+                android:layout_marginBottom="5.0dip"
+                android:background="@color/white1">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+
+                    <ImageButton
+                        android:id="@+id/img_colorPicker"
+                        android:layout_width="100.0dip"
+                        android:layout_height="100.0dip"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/colorpick"
+                        android:backgroundTint="@color/colorPrimary" />
+
+                    <TextView
+                        android:id="@+id/txtGal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/img_colorPicker"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5.0dip"
+                        android:text="@string/colorPicker"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="17.0sp" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10.0dip">
+
+        <ImageView
+            android:id="@+id/img_color"
+            android:layout_width="60.0dip"
+            android:layout_height="60.0dip"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/img_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_color"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="3.0dip"
+            android:text="@string/colorcc"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20.0sp" />
+    </RelativeLayout>
+</RelativeLayout>

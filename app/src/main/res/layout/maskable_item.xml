@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/colorPrimary">
+
+        <com.example.graphicsmaker.create.MaskableFrameLayout
+            android:id="@+id/mask_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="3dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:padding="5dp"
+            app:mask="@drawable/shape_1"
+            app:porterduffxfermode="DST_IN">
+
+            <ImageView
+                android:id="@+id/res_img"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/btxt12"
+                android:layout_gravity="center"
+                android:contentDescription="@string/image" />
+        </com.example.graphicsmaker.create.MaskableFrameLayout>
+
+    <TextView
+        android:id="@+id/modeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:text="DST_IN"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mask_frame" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

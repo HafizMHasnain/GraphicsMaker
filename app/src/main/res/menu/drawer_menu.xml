@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:icon="@drawable/business_icons8_home"
+        android:title="@string/home" />
+
+    <item android:title="@string/create" android:icon="@drawable/business_shape_39">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_logo"
+                    android:icon="@drawable/business_icons8_suzuki_1"
+                    android:title="@string/logo" />
+                <item
+                    android:id="@+id/nav_card"
+                    android:icon="@drawable/business_icons8_bank_card_missing"
+                    android:title="Card" />
+                <item
+                    android:id="@+id/nav_poster"
+                    android:icon="@drawable/business_icons8_sheet_of_paper_1"
+                    android:title="Poster" />
+                <item
+                    android:id="@+id/nav_request_design"
+                    android:icon="@drawable/business_icons8_design_2"
+                    android:title="@string/request_for_design" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/more1" android:icon="@drawable/moreapp">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_remove_ads"
+                    android:icon="@drawable/business_icons8_google_adwords"
+                    android:title="@string/remove_ads" />
+                <item
+                    android:id="@+id/nav_rate_us"
+                    android:icon="@drawable/business_icons8_rating"
+                    android:title="@string/rate_us" />
+                <item
+                    android:id="@+id/nav_about_us"
+                    android:icon="@drawable/business_icons8_about"
+                    android:title="@string/about_us" />
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/business_icons8_share"
+                    android:title="@string/share" />
+                <item
+                    android:id="@+id/nav_exit"
+                    android:icon="@drawable/business_icons8_exit"
+                    android:title="@string/exit_text" />
+            </group>
+        </menu>
+    </item>
+</menu>

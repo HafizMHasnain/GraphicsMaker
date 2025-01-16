@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:padding="16dp"
+    android:background="@drawable/card_bg">
+
+    <RelativeLayout
+        android:id="@+id/hh"
+        android:layout_width="match_parent"
+        android:layout_height="60.0dip">
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/select_picture"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20.0sp"
+
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hh"
+        android:layout_centerInParent="true"
+        android:layout_margin="6.0dip"
+        android:orientation="horizontal"
+        android:weightSum="2.0">
+
+        <RelativeLayout
+            android:layout_width="0.0dip"
+            android:layout_height="150.0dip"
+            android:layout_marginRight="3.0dip"
+            android:layout_weight="1.0"
+            android:background="@color/white1">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true">
+
+                <ImageButton
+                    android:id="@+id/img_camera"
+                    android:layout_width="100.0dip"
+                    android:layout_height="100.0dip"
+                    android:src="@drawable/camera"
+                    android:backgroundTint="@color/white1"
+                    app:tint="@color/black" />
+
+                <TextView
+                    android:id="@+id/txtCam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_camera"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5.0dip"
+                    android:text="@string/camera"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="17.0sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0.0dip"
+            android:layout_height="150.0dip"
+            android:layout_marginLeft="3.0dip"
+            android:layout_weight="1.0"
+            android:background="@color/white1">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true">
+
+                <ImageButton
+                    android:id="@+id/img_gallery"
+                    android:layout_width="100.0dip"
+                    android:layout_height="100.0dip"
+                    android:src="@drawable/gallery"
+                    android:backgroundTint="@color/white1"
+                    app:tint="@color/colorPrimary" />
+
+                <TextView
+                    android:id="@+id/txtGal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_gallery"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5.0dip"
+                    android:text="@string/gallery"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="17.0sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
